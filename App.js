@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 // React.createElement('tag', 'attributes', 'children')
 const h1 = React.createElement("h1", { id: "heading" }, "Hello World"); // core react library
 console.log(h1); // it is an object with type, props and key which is used to render the react element and it is immutable object which means it cannot be changed
